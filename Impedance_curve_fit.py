@@ -7,7 +7,7 @@ from impedance.models.circuits import CustomCircuit
 
 
 # Import your data.csv 
-file_path = r'C:\Users\20224751\Downloads\EIS_data_py.csv'
+file_path = r'C:your_path'
 
 df = pd.read_csv(file_path)
 print(df.to_string()) 
