@@ -49,7 +49,7 @@ circuit.fit(a_f, z)
 print(circuit)
 
 Z_fit = circuit.predict(a_f)
-print(Z_fit)
+#print(Z_fit)
 
 
 Zreal_fit=Z_fit.real
